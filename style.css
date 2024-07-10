@@ -80,7 +80,7 @@ html{
     color: white;
 }
 .header-button a:hover{
-    color: blueviolet;
+    color: burlywood;
 }
 
 .header-description{
@@ -170,8 +170,8 @@ html{
     align-content: center;
     width: 852px;
     height: 614px;
-    background: rgba(13, 19, 33, 20%);
     margin: 50px auto 151px;
+    border: 2px solid #0D1321;
 }
 .inspiration-video > iframe{
     border-radius: 16px;
@@ -254,6 +254,7 @@ html{
     border-radius: 8px;
     border: none;
 }
+
 .footer-submit-btn{
     width: 120px;
     height: 57px;
@@ -262,6 +263,10 @@ html{
     font-size: 20px;
     color: #0D1321;
     font-weight: 600;
+}
+.footer-submit-btn a{
+    text-decoration: none;
+    color: #0D1321;
 }
 
 .footer-navbar{
