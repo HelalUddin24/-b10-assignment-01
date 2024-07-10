@@ -230,7 +230,7 @@ html{
     height: 313px;
 }
 .footer-main-text-area{
-    padding-top: 64px;
+    padding-top: 44px;
 }
 .footer-description{
     margin: 20px 39px 0px;
@@ -243,6 +243,9 @@ html{
     font-weight: bold;
     font-size: 32px;
     line-height: 36px;
+}
+.footer-form{
+    padding-top: 20px;
 }
 .footer-input-btn{
     width: 548px;
