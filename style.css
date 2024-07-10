@@ -136,8 +136,12 @@ html{
     padding: 12px 20px;
     color:#555963;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     border: 1px solid #0D1321;
+}
+.web-development-reason-button a{
+    text-decoration: none;
+    color: #0D1321;
 }
 .second-reason{
     padding-right: 0px;
@@ -256,9 +260,7 @@ html{
     color: #0D1321;
     font-weight: 600;
 }
-.footer-form{
-    padding-top: 34px;
-}
+
 .footer-navbar{
     display: flex;
     justify-content: space-between;
