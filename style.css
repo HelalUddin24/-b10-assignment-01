@@ -1,0 +1,275 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* font style */
+
+.azeret-mono-font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style */
+.text-center{
+    text-align: center;
+}
+.max-width{
+    max-width: 1140px;
+}
+
+/* header section style */
+
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 680px;
+}
+.navbar-name{
+    padding-top: 50px;
+}
+.navbar-button{
+    margin-top: 38px;
+    padding: 0 10px;
+    width: 244px;
+    height: 57px;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+}
+.header-container{
+    background-image: url(./assets/Hero-bg.png);
+    height: 652px;
+    margin-top: 48px;
+}
+.container-element{
+    padding-top: 26px;
+}
+.header-title{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 68px;
+    margin-top: 32px;
+}
+.header-image{
+    display: flex;
+    justify-content: center;
+}
+.header-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    width: 244px;
+    height: 65px;
+    border: none;
+    border-radius: 8px;
+    padding: 21px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #0D1321;
+}
+.header-button a{
+    text-decoration: none;
+    color: white;
+}
+.header-button a:hover{
+    color: blueviolet;
+}
+
+.header-description{
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* Main section style */
+
+.web-development-container{
+    padding: 80px 97px;
+    margin-top: 74px;
+}
+.web-development-header{}
+.web-develpment-header-title{
+    font-size: 32px;
+    font-weight: 900;
+}
+.web-development-header-description{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    color: #0D1321;
+}
+
+.web-development-reason-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 98px;
+    padding: 48px;
+    margin-bottom: 32px;
+}
+.web-development-reason{
+    width: 50%;
+}
+.web-development-reason-title{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #555963;
+    padding-right: 150px;
+    margin-bottom:20px ;
+}
+.web-development-reason-description{
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+}
+.web-development-reason-button{
+    margin-top: 32px;
+    padding: 12px 20px;
+    color:#555963;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #0D1321;
+}
+.second-reason{
+    padding-right: 0px;
+}
+
+
+/*  inspiration section style  */
+
+.inspiration-container{}
+.inspiration-head{}
+.inspiration-title{
+    margin-bottom: 24px;
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 900;
+}
+.inspiration-description{
+    color: #555963;
+    font-size: 16px;
+    line-height: 26px;
+}
+.inspiration-video{
+    border-radius: 16px ;
+    padding:32px;
+    display:flex;
+    align-content: center;
+    width: 852px;
+    height: 614px;
+    background: rgba(13, 19, 33, 20%);
+    margin: 50px auto 151px;
+}
+.inspiration-video > iframe{
+    border-radius: 16px;
+    margin-top: 30px;
+}
+
+/*  target section style */
+
+.current-target-title, .skill-title{
+    font-size: 32;
+    font-weight: 900;
+}
+.current-target-description{
+    line-height: 26px;
+}
+.current-target-description, .skill-description{
+    color: #555963;
+    font-size: 16px;
+    margin: 24px auto;
+}
+.current-target-skills{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 111px;
+}
+.current-target-skill{
+    padding: 40px;
+}
+
+.bg-1{background: rgba(255, 223, 0, 5%);}
+.bg-2{background:rgba(0, 76, 232, 5%);}
+.bg-3{background: rgba(255, 223, 0, 5%);}
+
+.skill-image{}
+.skill-title{
+    margin-top: 24px;
+}
+.skill-description{
+}
+.skill-more li{
+    list-style: none;
+}
+.skill-more li a{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*  footer main style */
+
+.footer-main{
+    background: url(./assets/handshake.jpg) no-repeat center;
+    background-size:cover;
+    position: relative;
+    border-radius: 16px;
+    height: 313px;
+}
+.footer-main-text-area{
+    padding-top: 64px;
+}
+.footer-description{
+    margin: 20px 39px 0px;
+    color: white;
+    font-size: 16px;
+    padding: 0px 200px;
+}
+.footer-title{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+}
+.footer-input-btn{
+    width: 548px;
+    height: 57px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
+.footer-submit-btn{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    color: #0D1321;
+    font-weight: 600;
+}
+.footer-form{
+    padding-top: 34px;
+}
+.footer-navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    gap: 260px;
+}
+.footer-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 200px;
+}
+.footer-social-media img{
+    margin-left: 10px;
+}
